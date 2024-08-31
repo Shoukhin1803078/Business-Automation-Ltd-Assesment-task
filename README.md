@@ -1,4 +1,4 @@
-# Business-Automation-Ltd-Assesment-task Resume Categorization Model
+# Business-Automation-Ltd-Assesment-task Resume Categorization Model Implement
 
 ## 1. Overview
 The goal of this project is to automatically categorize resumes into different domains (e.g., IT, Marketing, Finance) based on their content. This helps in streamlining the recruitment process by allowing for quick sorting and better matching of candidates to job openings.
