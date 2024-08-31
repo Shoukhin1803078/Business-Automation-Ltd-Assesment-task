@@ -24,7 +24,7 @@ I chosen RandomForest Classifier Model. I think for this dataset RandomForest Cl
 -	Robustness: It can handles high dimensional data well and is less likely to overfit compared to other algorithms.
 -	Performance: It provides high accuracy and handles the balance between bias and variance effectively.
 -	Feature Importance:  This classifer offers good insights into which features are most influencing the predictions, which is valuable for text data.
--	
+
 These are the main reason for choosing this classifier.
 I use train validation and test ratio is 80% : 10% : 10%
 
@@ -34,22 +34,15 @@ Here is the classification report:
 
 
 
-## 5. Evaluation
-**Objective:** Assess the performance of the trained model.
-
-**Evaluation Methods:**
-- Using a confusion matrix to visualize performance.
-- A classification report to provide precision, recall, and F1-score metrics for each category.
+## 5. Result analysis and Evaluation
+For evaluation here I give confusion matrix, ROC curve and feature importance curve etc. 
+**Confusion Matrix:**
+![Screenshot (58)](https://github.com/user-attachments/assets/b9d153b2-679b-4f03-a9f3-84ff0541b5a2)
+**Feature Importance curve:**
+![Screenshot (59)](https://github.com/user-attachments/assets/9fe78fcd-6186-4f96-a21b-bcb906895a54)
+**ROC curve:**
+![Screenshot (61)](https://github.com/user-attachments/assets/1cca978f-5fd5-46b8-9e1e-bb4de06f0add)
 
 ## 6. Deployment
-**Objective:** Deploy the trained model to categorize new resumes.
-
-**Instructions:**
-- Ensure all dependencies are installed.
-- Load the trained model.
-- Input the directory path of new resumes.
-- Run the script to categorize resumes and save the results.
-
-**Expected Outputs:**
-- Categorized resumes sorted into domain-specific folders.
-- A summary CSV file named 'categorized_resumes.csv' containing resume identifiers and their predicted categories.
+I uploaded the dataset into my drive (publicly accessable). I do all code in google colab . If you want to run the whole code please go to this link where I put my code:
+https://colab.research.google.com/drive/1Bn0UI92yi-KXCJvrw-McXieZeVlBGClc?usp=sharing
