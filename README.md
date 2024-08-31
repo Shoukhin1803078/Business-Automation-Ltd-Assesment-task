@@ -4,11 +4,14 @@
 The goal of this project is to automatically categorize resumes into different domains (e.g., IT, Marketing, Finance) based on their content. This helps in streamlining the recruitment process by allowing for quick sorting and better matching of candidates to job openings.
 
 ## 2. Data Preprocessing
-**Objective:** Prepare the raw resume data for machine learning model training.
+Here I use some methods include loading data
+- Text cleaning through tokenization
+-	Lowercasing
+-	Stopword removal
+-	Non-alphanumeric removal. 
+These steps help me to prepare the text data by reducing noise and focusing on relevant words.
 
-**Methods include:**
-- Loading data
-- Text cleaning through tokenization, lowercasing, stopword removal, and non-alphanumeric removal. These steps help prepare the text data by reducing noise and focusing on relevant words.
+
 
 ## 3. Feature Extraction
 **Objective:** Convert preprocessed text into a numerical format that can be used by the machine learning model.
